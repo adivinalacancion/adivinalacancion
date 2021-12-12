@@ -31,12 +31,15 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0 280px;}/* 280px => 80px for #introblocks negative margin */
+#pageintro{padding:150px 0 150px;}/* 280px => 80px for #introblocks negative margin */
 
 #pageintro article, #pageintro article p{display:block; max-width:75%; margin:0 auto; text-align:center;}
 #pageintro article p{max-width:95%; line-height:2rem;}
 #pageintro .heading{margin-bottom:18px; font-size:3.5rem;}
-#pageintro footer{margin-top:50px;}
+#pageintro footer{margin-top:30px;}
+
+
+
 
 
 /* Content Area
@@ -158,15 +161,17 @@ File: Layout CSS
 #ctdetails button{padding:8px 18px 10px; text-transform:uppercase; font-weight:400; cursor:pointer;}
 
 
+
+
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
-#footer{padding:80px 0;}
+#footer{padding:20px 0;}
 
 #footer .heading{margin-bottom:50px; font-size:1.2rem;}
 #footer .logoname{margin-bottom:50px;}
 #footer p + .faico{margin-top:30px;}
 
-#footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
+#footer .linklist li{display:block; margin-bottom:15px; padding:0 0 0px 0; border-bottom:1px solid;}
 #footer .linklist li:last-child{margin:0; padding:0; border:none;}
 #footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
 #footer .linklist li, #footer .linklist li::after{clear:both;}
@@ -330,7 +335,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#97A9BD !important;}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
 
 .logoname a{color:#FFFFFF;}
-.logoname::first-letter, .logoname span{color:#97BDAB;}
+
 
 
 /* Rows */
